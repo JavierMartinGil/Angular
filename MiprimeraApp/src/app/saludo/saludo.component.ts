@@ -5,15 +5,23 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './saludo.component.html',
   styleUrls: ['./saludo.component.css']
 })
-export class SaludoComponent implements OnInit {
+export class SaludoComponent {
 
   mensaje: string;
+  contador: number;
+  identificador: string;
 
   constructor() {
     this.mensaje = 'Este es mi mensaje de saludo';
-  }
+    this.contador = 0;
+    this.identificador = "parrafofinal";
 
-  ngOnInit() {
-  }
+    setInterval(() => {
+      this.contador++
 
+    }, 1000);
+  }
+  mostrarMensaje() {
+    return 'Mensaje desde metodo';
+  }
 }
