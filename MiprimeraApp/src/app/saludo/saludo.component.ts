@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SaludoComponent {
 
+  // Declaraciones
   mensaje: string;
   contador: number;
   identificador: string;
@@ -23,5 +24,11 @@ export class SaludoComponent {
   }
   mostrarMensaje() {
     return 'Mensaje desde metodo';
+  }
+
+  pulsaBoton($event) {
+    console.log('Botón pulsado!!');
+    this.mensaje = 'Se ha pulsado el botón';
+    console.log($event.screenX);
   }
 }

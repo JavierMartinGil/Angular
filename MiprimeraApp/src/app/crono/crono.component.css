@@ -1,0 +1,33 @@
+div.contador {
+    width: 300px;
+    text-align: center;
+    border: 3px solid #6A041D;
+    padding: 5px 0;
+    background-color:#F5B841;
+    margin: 5px;
+}
+
+div.contador p{
+    font-size: 5em;
+    font-weight: bold;
+    color: #6A041D;
+}
+
+div.contador button{
+    border: 3px solid #6A041D;
+    background-color: #F5B841;
+    padding: 10px 15px;
+    color: #6A041D;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 0 5px;
+
+}
+
+div.contador button:hover{
+    cursor: pointer;
+    border: 3px solid #F5B841;
+    background-color: #6A041D;
+    color: #F5B841;
+
+}
