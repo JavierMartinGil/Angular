@@ -1,0 +1,29 @@
+<div class="calculadora">
+    <div class="pantalla">{{resultado}}</div>
+    <div>
+        <button (click)="escribirNumero('1')">1</button>
+        <button (click)="escribirNumero('2')">2</button>
+        <button (click)="escribirNumero('3')">3</button>
+    </div>
+    <div>
+        <button (click)="escribirNumero('4')">4</button>
+        <button (click)="escribirNumero('5')">5</button>
+        <button (click)="escribirNumero('6')">6</button>
+    </div>
+    <div class="operaciones">
+        <button (click)="escribirNumero('7')">7</button>
+        <button (click)="escribirNumero('8')">8</button>
+        <button (click)="escribirNumero('9')">9</button>
+        <button (click)="escribirNumero('0')">0</button>
+    </div>
+    <div class="operaciones">
+        <button (click)="escribirNumero('+')">+</button>
+        <button (click)="escribirNumero('-')">-</button>
+        <button (click)="escribirNumero('*')">*</button>
+        <button (click)="escribirNumero('/')">/</button>
+    </div>
+    <div class="igual">
+        <button (click)="resultadoFinal()">=</button>
+        <button (click)="borrar()">C</button>
+    </div>
+</div>

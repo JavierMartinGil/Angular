@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SaludoComponent } from './saludo/saludo.component';
 import { CronoComponent } from './crono/crono.component';
+import { SumaComponent } from './suma/suma.component';
+import { CalculadoraComponent } from './calculadora/calculadora.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SaludoComponent,
-    CronoComponent
+    CronoComponent,
+    SumaComponent,
+    CalculadoraComponent
   ],
   imports: [
     BrowserModule

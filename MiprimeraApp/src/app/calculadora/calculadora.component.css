@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+div.calculadora{
+    width: 400px;
+    margin: 0 auto;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.pantalla{
+    background-color: lightgray;
+    text-align: right;
+    font-size: 2em;
+    padding: 0 15px;
+    height: 1em;
+    border: 1px solid #4F5D75
+}
+
+.calculadora button{
+    width: 33.333%;
+    background-color: #EF8354;
+    border: 1px solid #4F5D75;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.calculadora .igual button{
+    width: 50%;
+}
+
+.calculadora .operaciones button{
+    width: 25%;
+}

@@ -1,0 +1,23 @@
+div.calculadora{
+    width: 300px;
+    text-align: center;
+    border: 3px solid #6A041D;
+}
+
+.calculadora p{
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.calculadora button{
+    font-size: 2em;
+    border: 3px solid#6A041D;
+    background-color: white;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.calculadora button:hover{    
+    background-color: orange;
+    cursor: pointer;    
+}
