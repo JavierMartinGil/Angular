@@ -12,11 +12,16 @@ export class AppComponent {
 
     this.estilosParrafo = {
       backgroundColor: 'red',
-      fontSize: '14px'
+      fontSize: '24px'
     }
   }
 
   cambiarColor() {
     this.estilosParrafo.backgroundColor = 'green';
+  }
+
+  cambiaFuente($event) {
+    console.log($event.target.value);
+    this.estilosParrafo.fontSize = $event.target.value + 'px';
   }
 }

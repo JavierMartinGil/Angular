@@ -1,0 +1,18 @@
+.semaforo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.ambar{
+    background-color: orange;
+}
+
+.rojo{
+    background-color: red;
+}
