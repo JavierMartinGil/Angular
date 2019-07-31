@@ -1,0 +1,7 @@
+1.- Instalar por consola con el comando 'npm install bootstrap'
+
+2. - Añadir "styles": [
+              --->"node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ], 
+en archivo angular.json

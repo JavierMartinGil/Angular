@@ -1,5 +1,5 @@
 <div class="calculadora">
-    <div class="pantalla">{{resultado}}</div>
+    <div class="pantalla">{{resultado || "0"}}</div>
     <div>
         <button (click)="escribirNumero('1')">1</button>
         <button (click)="escribirNumero('2')">2</button>

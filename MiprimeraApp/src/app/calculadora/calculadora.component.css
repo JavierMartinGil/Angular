@@ -5,7 +5,7 @@
 div.calculadora{
     width: 400px;
     margin: 0 auto;
-    border: 3px solid black;
+    border: 3px solid #2D3142;
     padding: 10px;
     text-align: center;
 }
@@ -15,14 +15,13 @@ div.calculadora{
     text-align: right;
     font-size: 2em;
     padding: 0 15px;
-    height: 1em;
     border: 1px solid #4F5D75
 }
 
 .calculadora button{
     width: 33.333%;
-    background-color: #EF8354;
-    border: 1px solid #4F5D75;
+    background-color: #BFC0C0;
+    border: 1px solid #2D3142;
     padding: 10px 0;
     cursor: pointer;
 }

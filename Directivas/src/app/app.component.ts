@@ -6,14 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MiPrimeraApp';
-  numeros: Array<number>;
+  estilosParrafo: any;
 
   constructor() {
-    this.numeros = [10, 12, 3, 7];
+
+    this.estilosParrafo = {
+      backgroundColor: 'red',
+      fontSize: '14px'
+    }
   }
 
-  manejarCuenta($event) {
-    console.log($event);
+  cambiarColor() {
+    this.estilosParrafo.backgroundColor = 'green';
   }
 }
