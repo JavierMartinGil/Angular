@@ -1,20 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { SemaforoComponent } from './semaforo/semaforo.component';
-import { BuclesComponent } from './bucles/bucles.component';
+import { ListaComponent } from './lista/lista.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SemaforoComponent,
-    BuclesComponent
+    ListaComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

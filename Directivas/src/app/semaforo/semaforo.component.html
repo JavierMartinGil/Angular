@@ -1,2 +1,3 @@
-<div class="semaforo" [ngClass]="{rojo: (colorSeleccionado == 'rojo'), ambar:(colorSeleccionado == 'ambar'), verde:(colorSeleccionado == 'verde')}"></div>
-<button (click)='cambiarSemaforo()'>Cambiar semáforo</button>
+<div class="semaforo" [ngClass]="{rojo: (colorSeleccionado == 'rojo'), ambar:(colorSeleccionado == 'ambar'), verde:(colorSeleccionado == 'verde')}" *ngIf="mostrarSemaforo"></div>
+<button (click)="cambiarSemaforo()">Cambiar semáforo</button>
+<button (click)="despareceSemaforo()">Desaparece</button>
