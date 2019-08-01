@@ -14,13 +14,19 @@ export class ListaComponent implements OnInit {
   ngOnInit() {
   }
 
-  mostrarTareas() {
-    let total = "<ul>"
-    for (let tarea of this.tareas) {
-      total += `<li>${tarea.titulo}</li><p>${tarea.descripcion}</p>`
-    }
-    total += "</ul>";
-    return total;
+  /*  mostrarTareas() {
+     let total = "<ul>"
+     for (let tarea of this.tareas) {
+       total += `<li>${tarea.titulo}</li><p>${tarea.descripcion}</p>`
+     }
+     total += "</ul>";
+     return total;
+   } */
+
+  marcarCompleta(pTarea) {
+    console.log(pTarea);
+    pTarea.completa = !pTarea.completa;
+
   }
 
 }

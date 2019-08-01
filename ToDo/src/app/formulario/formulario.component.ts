@@ -21,7 +21,9 @@ export class FormularioComponent implements OnInit {
   }
 
   enviarTarea() {
+    this.tarea.completa = false;
     this.tareaEnviada.emit(this.tarea);
+    this.tarea = {};
 
   }
 

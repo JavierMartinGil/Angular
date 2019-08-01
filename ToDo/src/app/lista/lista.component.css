@@ -1,4 +1,19 @@
-.lista {
+.wrapper {
     background-color: aquamarine;
-    
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;  
+}
+
+.wrapper hr{
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.tarea-completa{
+    background-color: palegreen;
+}
+
+.tarea-incompleta{
+    background-color: #e99b8e;
 }

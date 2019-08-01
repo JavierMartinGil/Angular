@@ -1,4 +1,8 @@
-<div class="lista">
-    <h1>Lista de Tareas</h1>
-    <div [innerHTML]="mostrarTareas()"></div>
+<div class="wrapper" *ngFor="let tarea of tareas" [ngClass]="{'tarea-completa':tarea.completa,'tarea-incompleta':!tarea.completa}">
+    <h3>{{tarea.titulo}}</h3>
+    <hr>
+    <p>{{tarea.descripcion}}</p>
+    <button class="btn btn-block btn-primary" (click)="marcarCompleta(tarea)">
+        {{(tarea.completa)?"Marcar incompleta":"Marcar completa"}}</button>
+
 </div>
