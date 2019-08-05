@@ -1,0 +1,11 @@
+<reloj identificador="PRIM" segundos="33" (avisa30segundos)="onavisa30segundos($event)" (avisatermina)="onavisatermina($event)"></reloj>
+
+<reloj identificador="SEGUNDO" segundos="13" (avisa30segundos)="onavisa30segundos($event)" (avisatermina)="onavisatermina($event)"></reloj>
+
+<reloj identificador="TERCERO" segundos="39" (avisa30segundos)="onavisa30segundos($event)" (avisatermina)="onavisatermina($event)"></reloj>
+
+<ul>
+    <li *ngFor="let mensaje of mensajes">
+        {{mensaje}}
+    </li>
+</ul>

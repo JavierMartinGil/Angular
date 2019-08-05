@@ -1,0 +1,4 @@
+<h2>{{titulo}}</h2>
+<p *ngFor="let producto of productos"><strong>✔ Producto:</strong> {{producto.nombre}}<span><strong><br>💲 Precio:</strong> {{producto.precio}} €</span></p>
+<hr><button class="btn btn-info" (click)="sumarPrecio()">Sumar</button>
+<h3>Precio total: {{total}}</h3>

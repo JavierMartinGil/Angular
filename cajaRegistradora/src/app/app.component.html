@@ -1,0 +1,12 @@
+<div class="container">
+  <app-cabecera></app-cabecera>
+  <div class="row">
+    <div class="col-lg-8">
+      <app-lista-productos titulo="Comida" [productos]="arrProdsComida" (productoSeleccionado)="onProductoSeleccionado($event)"></app-lista-productos>
+      <app-lista-productos titulo="Bebida" [productos]="arrProdsBebida" (productoSeleccionado)="onProductoSeleccionado($event)"></app-lista-productos>
+    </div>
+    <div class="col-lg-4">
+      <app-comanda titulo="Comanda" [productos]="arrProductoSeleccionado"></app-comanda>
+    </div>
+  </div>
+</div>
