@@ -1,0 +1,18 @@
+<h3>Responde correctamente a las preguntas</h3>
+<div class="row">
+    <div class="col-lg-8">
+        <h3>{{arrPreguntas[numeroPregunta].texto}}</h3>
+        <app-respuestas [respuestas]="arrPreguntas[numeroPregunta].respuestas"></app-respuestas>
+    </div>
+    <div class="col-lg-4">
+        <aside>
+            <div class="crono">
+                <h3>Tiempo restante</h3>
+                <h4>{{cronometro}}</h4>
+            </div>
+            <div class="feed">
+                <h4>Feed</h4>
+            </div>
+        </aside>
+    </div>
+</div>
